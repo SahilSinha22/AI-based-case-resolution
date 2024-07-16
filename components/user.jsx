@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 import Client from "@/public/Client.png";
 import Important from "@/public/Important.png";

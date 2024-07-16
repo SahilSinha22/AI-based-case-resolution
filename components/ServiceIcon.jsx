@@ -5,7 +5,7 @@ import National from "@/public/NationalJudicial.jpg"
 import Judgement from "@/public/Judgement.jpeg";
 import Virtual from "@/public/VirtualClock.jpg";
 import Case from "@/public/casestatus.png";
-import Live from "@/public/live.jpg";
+import Lives from "@/public/live.jpg";
 import Traffic from "@/public/traffic.jpg";
 const ServiceIcon = () => {
   return (
@@ -32,7 +32,7 @@ const ServiceIcon = () => {
         <p>Know Your Case Status</p>
       </div>
       <div>
-        <Image  src={Live} alt="Live Streaming Of Court Cases" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src={Lives} alt="Live Streaming Of Court Cases" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Live Streaming Of Court Cases</p>
       </div>
       <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import Testimonial from "@/public/Testinomial2.png";
-import Home from "@/public/Home.png";
+import Homes from "@/public/Home.png";
 import Dashboard from "@/public/Navbar1.png";
 import Clients from "@/public/Navbar2.png";
 import Case from "@/public/Navbar3.png";
@@ -13,7 +13,7 @@ import Team from "@/public/Navbar6.png";
 import Income from "@/public/Navbar7.png";
 import Vendor from "@/public/Navbar8.png";
 import Expense from "@/public/Navbar9.png";
-import Setting from "@/public/settings.png";
+import Settingss from "@/public/settings.png";
 const LawyerNav = () => {
   return (
     <div className="flex h-full">
@@ -27,7 +27,7 @@ const LawyerNav = () => {
             <ul>
             <li className="mb-2">
                 <Link href="/" className="flex items-center p-2 hover:bg-blue-700 rounded">
-                  <Image src={Home} alt="Dashboard" className="material-icons mr-2" width={40} height={4}/>
+                  <Image src={Homes} alt="Dashboard" className="material-icons mr-2" width={40} height={4}/>
                   Home
                 </Link>
               </li>
@@ -91,7 +91,7 @@ const LawyerNav = () => {
               </li>
               <li className="mb-2">
                 <a href="#" className="flex items-center p-2 hover:bg-blue-700 rounded">
-                <Image src={Setting} alt="Setting" className="material-icons mr-2" width={40} height={5}/>
+                <Image src={Settingss} alt="Setting" className="material-icons mr-2" width={40} height={5}/>
                   Settings
                 </a>
               </li>
