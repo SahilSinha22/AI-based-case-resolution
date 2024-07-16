@@ -1,5 +1,8 @@
 import React from 'react'
-
+import Image from 'next/image'
+import Annual from "@/public/Annual.png";
+import Budget from "@/public/Budget.png";
+import Law from "@/public/Lawcommission.png";
 const Info = () => {
   return (
     <div class="flex flex-wrap justify-around p-4">
@@ -7,15 +10,15 @@ const Info = () => {
     <h2 class="text-lg font-semibold mb-4">Reports & Documents</h2>
     <div class="space-y-4">
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <img src="https://placehold.co/50x50?text=📄" alt="Annual Reports" class="mr-4" />
+        <Image src={Annual} alt="Annual Reports" class="mr-4" width={100} height={10}/>
         <span class="text-card-foreground">Annual Reports</span>
       </div>
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <img src="https://placehold.co/50x50?text=💰" alt="Budget Information" class="mr-4" />
+        <Image src={Budget} alt="Budget Information" class="mr-4" width={100} height={20} />
         <span class="text-card-foreground">Budget Information</span>
       </div>
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <img src="https://placehold.co/50x50?text=📑" alt="Law Commission Reports Having DOJ Interface" class="mr-4" />
+        <Image src={Law} alt="Law Commission Reports Having DOJ Interface" class="mr-4" width={100} height={10}/>
         <span class="text-card-foreground">Law Commission Reports Having DOJ Interface</span>
       </div>
     </div>
@@ -23,7 +26,7 @@ const Info = () => {
 
   <div class="w-full md:w-1/4 p-2">
     <h2 class="text-lg font-semibold mb-4">Divisions</h2>
-    <ul class="list-disc list-inside text-card-foreground">
+    <ul class="list-disc list-inside text-xl">
       <li>Appointments</li>
       <li>National Mission for Justice Delivery & Legal Reforms</li>
       <li>Access to Justice</li>
@@ -36,7 +39,7 @@ const Info = () => {
 
   <div class="w-full md:w-1/4 p-2">
     <h2 class="text-lg font-semibold mb-4">Important Links</h2>
-    <ul class="list-disc list-inside text-card-foreground">
+    <ul class="list-disc list-inside text-xl">
       <li>Department of Legal Affairs</li>
       <li>Legislative Department</li>
       <li>Supreme Court of India</li>
@@ -48,12 +51,12 @@ const Info = () => {
     </ul>
   </div>
 
-  <div class="w-full md:w-1/4 p-2 ">
+  <div class="w-full md:w-1/4 p-2 h-40">
     <h2 class="text-lg font-semibold mb-4">Tweets</h2>
     <div class="bg-card rounded-lg shadow-md p-4">
       <a class="twitter-timeline" href="https://twitter.com/MLJ_GoI">Posts from @MLJ_GoI</a>
       <div className="h-40">
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      {/*<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>*/}
       </div>
     </div>
   </div>

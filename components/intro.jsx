@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import Laws from "@/public/LawsAi.jpg"
+import Laws from "@/public/Judicial4.jpg"
 const intro = () => {
   return (
     <div>

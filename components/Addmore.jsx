@@ -1,35 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const Addmore = () => {
   return (
-    <div class="flex">
-    <aside class="w-64 bg-blue-600 text-white min-h-screen">
-      <div class="p-4">
-        <div class="text-center mb-4">
-          <Image src="" alt="User Avatar" class="rounded-full mx-auto mb-2" width={400} height={100} />
-          <p>Welcome</p>
-        </div>
-        <nav>
-          <ul>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Dashboard</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Client</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Case</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Task</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Appointment</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Team Members</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Income</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Vendor</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Expense</a></li>
-            <li class="py-2 px-4 hover:bg-blue-700"><a href="#">Settings</a></li>
-          </ul>
-        </nav>
-      </div>
-    </aside>
+    <div class="flex h-screen">
+   
   
     <main class="flex-1 p-6 bg-zinc-100">
       <div class="flex justify-between items-center mb-6">
         <h1 class="text-2xl font-semibold">Add Case</h1>
-        <button class="bg-blue-500 text-white px-4 py-2 rounded">Back</button>
+        <Link href="/Case">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded">Back</button>
+        </Link>
       </div>
       <div class="bg-white p-6 rounded shadow">
         <section class="mb-6">

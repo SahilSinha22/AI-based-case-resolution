@@ -1,37 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const appointment = () => {
   return (
    
       <div class="min-h-screen flex">
-  <div class="w-64 bg-blue-700 text-white flex flex-col">
-    <div class="flex items-center justify-center h-16 border-b border-blue-800">
-      <span class="text-xl font-semibold">LawOffice</span>
-    </div>
-    <div class="flex flex-col items-center py-4">
-      <Image class="w-16 h-16 rounded-full" src="" alt="User profile picture" width={400} height={100}  />
-      <span class="mt-2">Welcome</span>
-    </div>
-    <nav class="flex-1 px-4 space-y-2">
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Dashboard icon" class="mr-3" /> Dashboard </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Client icon" class="mr-3" /> Client </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Case icon" class="mr-3" /> Case </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Task icon" class="mr-3" /> Task </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded bg-blue-600">
-        <Image src="" alt="Appointment icon" class="mr-3" width={400} height={100}  /> Appointment
-      </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Team Members icon" class="mr-3" /> Team Members </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Income icon" class="mr-3" /> Income </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Vendor icon" class="mr-3" /> Vendor </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Expense icon" class="mr-3" /> Expense </a>
-      <a href="#" class="flex items-center p-2 text-blue-100 hover:bg-blue-600 rounded"> <Image src="" alt="Settings icon" class="mr-3" /> Settings </a>
-    </nav>
-  </div>
+  
 
   <div class="flex-1 p-6 bg-zinc-100">
     <div class="flex justify-between items-center mb-4">
       <h1 class="text-2xl font-semibold">Appointment</h1>
-      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500">+ Add Appointment</button>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-900">+ Add Appointment</button>
     </div>
     <div class="bg-white p-4 rounded shadow">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
