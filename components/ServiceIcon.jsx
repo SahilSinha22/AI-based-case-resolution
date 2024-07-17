@@ -7,7 +7,7 @@ import Traffic from "@/public/traffic.jpg";
 
 import Judy from "@/public/Judgement.jpeg";
 import Casy from "@/public/CaseLaw.jpg";
-
+import National from "@/public/National.jpg";
 
 const ServiceIcon = () => {
   return (
@@ -18,7 +18,7 @@ const ServiceIcon = () => {
         <p>Citizen Services</p>
       </div>
       <div>
-        <Image  src="" alt="National Judicial Data Grid" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src={National} alt="National Judicial Data Grid" class="mx-auto mb-2" width={400 } height={400}   />
         <p>National Judicial Data Grid</p>
       </div>
       <div>
