@@ -6,7 +6,7 @@ import Traffic from "@/public/traffic.jpg";
 import Clock from "@/public/VirtualClock.jpg";
 import National from "@/public/NationalJudicial.jpg";
 import Judgement from "@/public/Judgement.jpeg";
-import Cases from "@/public/case-Law-1.jpg"
+import Cases from "@/public/caseLaw.jpg"
 
 const ServiceIcon = () => {
   return (
