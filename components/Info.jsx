@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Annual from "@/public/Annual.png";
-import Budget from "@/public/Budget.png"
+import Budget from "@/public/Budget.png";
+
 const Info = () => {
   return (
     <div class="flex flex-wrap justify-around p-4">
