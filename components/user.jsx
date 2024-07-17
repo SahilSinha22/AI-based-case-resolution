@@ -1,9 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Client from "@/public/Client.png";
+<<<<<<< HEAD
 import Cases from "@/public/casez.png";
+=======
+>>>>>>> e933d2084bc327a2e3bfa1feb2c3b4bf35fb23b1
 import Imp from "@/public/Importantz.png";
 import Aech from "@/public/Archivied.png";
+import Casez from "@/public/casez.png";
 const user = () => {
   return (
     <div>
@@ -32,7 +36,7 @@ const user = () => {
             </div>
             <div className="bg-white p-4 rounded shadow">
               <div className="flex items-center">
-                <Image src={Cases} alt="Cases Icon" className="mr-2" width={100} height={20} />
+                <Image src={Casez} alt="Cases Icon" className="mr-2" width={100} height={20} />
                 <div>
                   <div className="text-2xl font-bold">0</div>
                   <div>Cases</div>
