@@ -4,7 +4,7 @@ import Citizen from "@/public/Citzenship.jpeg";
 import Liv from "@/public/live.jpg";
 import Traffic from "@/public/traffic.jpg";
 
-
+import Clocy from "@/public/VirtualClock.jpg";
 import Judy from "@/public/Judgement.jpeg";
 import Casy from "@/public/CaseLaw.jpg";
 import National from "@/public/National.jpg";
@@ -26,7 +26,7 @@ const ServiceIcon = () => {
         <p>Search Judgements & Orders</p>
       </div>
       <div>
-        <Image  src="" alt="Virtual Justice Clock" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src={Clocy} alt="Virtual Justice Clock" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Virtual Justice Clock</p>
       </div>
       <div>
