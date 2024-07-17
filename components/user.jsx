@@ -1,10 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Client from "@/public/Client.png";
-<<<<<<< HEAD
-import Cases from "@/public/casez.png";
-=======
->>>>>>> e933d2084bc327a2e3bfa1feb2c3b4bf35fb23b1
+
+import Casez from "@/public/casez.png";
+
 import Imp from "@/public/Importantz.png";
 import Aech from "@/public/Archivied.png";
 import Casez from "@/public/casez.png";
