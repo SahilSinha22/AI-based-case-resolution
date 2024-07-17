@@ -12,12 +12,7 @@ const page = () => {
   return (
     <div>
        <Navbar/>
-      <Intro/>
-      <Mission/>
      
-      <Info/>
-      <Gallery/>
-      <Form/>
       <Footer/>
     </div>
   )
