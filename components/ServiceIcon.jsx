@@ -3,10 +3,7 @@ import Image from 'next/image';
 import Citizen from "@/public/Citzenship.jpeg";
 import Liv from "@/public/live.jpg";
 import Traffic from "@/public/traffic.jpg";
-import Clock from "@/public/VirtualClock.jpg";
-import National from "@/public/NationalJudicial.jpg";
-import Judgement from "@/public/Judgement.jpeg";
-import Cases from "@/public/caseLaw.jpg"
+
 
 const ServiceIcon = () => {
   return (
@@ -17,19 +14,19 @@ const ServiceIcon = () => {
         <p>Citizen Services</p>
       </div>
       <div>
-        <Image  src={National} alt="National Judicial Data Grid" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src="" alt="National Judicial Data Grid" class="mx-auto mb-2" width={400 } height={400}   />
         <p>National Judicial Data Grid</p>
       </div>
       <div>
-        <Image  src={Judgement} alt="Search Judgements & Orders" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src="" alt="Search Judgements & Orders" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Search Judgements & Orders</p>
       </div>
       <div>
-        <Image  src={Clock} alt="Virtual Justice Clock" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src="" alt="Virtual Justice Clock" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Virtual Justice Clock</p>
       </div>
       <div>
-        <Image  src={Cases} alt="Know Your Case Status" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src="" alt="Know Your Case Status" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Know Your Case Status</p>
       </div>
       <div>
