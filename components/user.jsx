@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Client from "@/public/Client.png";
-import Cases from "@/public/cases.png";
+import Cases from "@/public/casez.png";
 import Imp from "@/public/Importantz.png";
 import Aech from "@/public/Archivied.png";
 const user = () => {
