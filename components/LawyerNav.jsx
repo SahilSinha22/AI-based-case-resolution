@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import Testinomial from "@/public/Testinomial2.png";
+import Setting from "@/public/settings.png";
+import Homes from "@/public/Home.png";
 import Navbar1 from "@/public/Navbar1.png";
 import Navbar2 from "@/public/Navbar2.png"
 import Navbar3 from "@/public/Navbar3.png"
@@ -16,14 +19,14 @@ const LawyerNav = () => {
 
         <div className="bg-blue-800 text-white w-64 h-screen p-4 flex flex-col">
           <div className="grid grid-rows-2 items-center ">
-            <Image src={Navbar1} alt="User Avatar" className="rounded-full mr-2" width={100} height={10} />
+            <Image src={Testinomial} alt="User Avatar" className="rounded-full mr-2" width={100} height={10} />
             <span className='text-2xl font-sans font-bold'>Welcome</span>
           </div>
           <nav className="flex-1">
             <ul>
             <li className="mb-2">
                 <Link href="/" className="flex items-center p-2 hover:bg-blue-700 rounded">
-                  <Image src={Navbar2} alt="Dashboard" className="material-icons mr-2" width={40} height={4}/>
+                  <Image src={Homes} alt="Dashboard" className="material-icons mr-2" width={40} height={4}/>
                   Home
                 </Link>
               </li>
@@ -87,7 +90,7 @@ const LawyerNav = () => {
               </li>
               <li className="mb-2">
                 <a href="#" className="flex items-center p-2 hover:bg-blue-700 rounded">
-                <Image src="" alt="Setting" className="material-icons mr-2" width={40} height={5}/>
+                <Image src={Setting} alt="Setting" className="material-icons mr-2" width={40} height={5}/>
                   Settings
                 </a>
               </li>
