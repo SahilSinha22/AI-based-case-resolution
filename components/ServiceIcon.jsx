@@ -5,6 +5,9 @@ import Liv from "@/public/live.jpg";
 import Traffic from "@/public/traffic.jpg";
 
 
+import Judy from "@/public/Judgement.jpeg";
+
+
 const ServiceIcon = () => {
   return (
     <div class="bg-primary text-primary-foreground py-8">
@@ -18,7 +21,7 @@ const ServiceIcon = () => {
         <p>National Judicial Data Grid</p>
       </div>
       <div>
-        <Image  src="" alt="Search Judgements & Orders" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src={Judy} alt="Search Judgements & Orders" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Search Judgements & Orders</p>
       </div>
       <div>
