@@ -14,8 +14,7 @@ const page = () => {
        <Navbar/>
       <Intro/>
       <Mission/>
-      <Lawyer/>
-      <ServiceIcon/>
+     
       <Info/>
       <Gallery/>
       <Form/>
