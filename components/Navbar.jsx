@@ -1,9 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-import G20 from "@/public/G20.png";
-import Azadi from "@/public/Azadi.png";
-import Emblem from "@/public/emblem.svg"
+
 const Navbar = () => {
   return (
     <div class="bg-zinc-100">
@@ -21,7 +19,7 @@ const Navbar = () => {
   
     <div class="flex justify-between items-center bg-white p-4">
       <div class="flex items-center space-x-4">
-        <Image src={Emblem} alt="India Emblem" class="h-24 w-full object-contain"  width={600} height={400}/>
+        <Image src="" alt="India Emblem" class="h-24 w-full object-contain"  width={600} height={400}/>
         <div>
           <div class="text-lg font-bold">न्याय विभाग</div>
           <div class="text-2xl font-bold">DEPARTMENT OF JUSTICE</div>
@@ -30,10 +28,10 @@ const Navbar = () => {
       </div>
       <div class="flex space-x-4">
         <Link href="https://www.g20.org/en/">
-        <Image src={G20} alt="G20 Logo" class="h-12" width={200} height={100}/>
+        <Image src="" alt="G20 Logo" class="h-12" width={200} height={100}/>
         </Link>
         <Link href="https://amritmahotsav.nic.in/">
-        <Image src={Azadi} alt="Azadi Ka Amrit Mahotsav Logo" class="h-12" width={200} height={100} />
+        <Image src="" alt="Azadi Ka Amrit Mahotsav Logo" class="h-12" width={200} height={100} />
         </Link>
       </div>
     </div>
