@@ -6,7 +6,7 @@ import Traffic from "@/public/traffic.jpg";
 
 import Naty from "@/public/NationalJudicial.jpg";
 import Judge from "@/public/Judgement.jpeg";
-import Cases from "@/public/caseLaw.jpg"
+import Casy from "@/public/caseLaw.jpg"
 
 const ServiceIcon = () => {
   return (
@@ -29,7 +29,7 @@ const ServiceIcon = () => {
         <p>Virtual Justice Clock</p>
       </div>
       <div>
-        <Image  src={Cases} alt="Know Your Case Status" class="mx-auto mb-2" width={400 } height={400}   />
+        <Image  src={Casy} alt="Know Your Case Status" class="mx-auto mb-2" width={400 } height={400}   />
         <p>Know Your Case Status</p>
       </div>
       <div>
