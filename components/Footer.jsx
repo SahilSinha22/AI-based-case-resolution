@@ -1,5 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+import Logo1 from "@/public/Logo1.jpg";
+import Logo2 from "@/public/Logo2.png";
+import Logo3 from "@/public/Logo3.png";
+import Logo4 from "@/public/Logo4.png";
 
 const Footer = () => {
   return (
@@ -23,10 +27,10 @@ const Footer = () => {
       Last Updated: <span class="text-primary">July 15, 2024</span>
     </div>
     <div class="flex justify-center space-x-4 mt-4">
-      <Image  src="" alt="Certified Quality Website" class="h-10" width={100} height={10} />
-      <Image  src="" alt="Powered by SWAAS" class="h-10" width={100} height={10} />
-      <Image  src="" alt="NIC" class="h-10" width={100} height={10} />
-      <Image  src="" alt="Digital India" class="h-10"  width={100} height={10}/>
+      <Image  src={Logo1} alt="Certified Quality Website" class="h-10" width={100} height={10} />
+      <Image  src={Logo2} alt="Powered by SWAAS" class="h-10" width={100} height={10} />
+      <Image  src={Logo3} alt="NIC" class="h-10" width={100} height={10} />
+      <Image  src={Logo4} alt="Digital India" class="h-10"  width={100} height={10}/>
     </div>
   </div>
 </div>

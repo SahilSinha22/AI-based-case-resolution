@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import Emblem from "@/public/emblem.svg";
-import Goal from "@/public/G20.png"
+import Goal from "@/public/G20.png";
+import Azadi from "@/public/Azadi.png"
 const Navbar = () => {
   return (
     <div class="bg-zinc-100">
@@ -32,7 +33,7 @@ const Navbar = () => {
         <Image src={Goal} alt="G20 Logo" class="h-12" width={200} height={100}/>
         </Link>
         <Link href="https://amritmahotsav.nic.in/">
-        <Image src="" alt="Azadi Ka Amrit Mahotsav Logo" class="h-12" width={200} height={100} />
+        <Image src={Azadi} alt="Azadi Ka Amrit Mahotsav Logo" class="h-12" width={200} height={100} />
         </Link>
       </div>
     </div>

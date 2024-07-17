@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Annual from "@/public/Annual.png";
+import Budget from "@/public/Budget.png"
 const Info = () => {
   return (
     <div class="flex flex-wrap justify-around p-4">
@@ -8,11 +9,11 @@ const Info = () => {
     <h2 class="text-lg font-semibold mb-4">Reports & Documents</h2>
     <div class="space-y-4">
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <Image src="" alt="Annual Reports" class="mr-4" width={100} height={10}/>
+        <Image src={Annual} alt="Annual Reports" class="mr-4" width={100} height={10}/>
         <span class="text-card-foreground">Annual Reports</span>
       </div>
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <Image src="" alt="Budget Information" class="mr-4" width={100} height={20} />
+        <Image src={Budget} alt="Budget Information" class="mr-4" width={100} height={20} />
         <span class="text-card-foreground">Budget Information</span>
       </div>
       <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
