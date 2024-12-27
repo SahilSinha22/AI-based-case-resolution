@@ -1,11 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Client from "@/public/Client.png";
 
-
-
-import Imp from "@/public/Importantz.png";
-import Aech from "@/public/Archivied.png";
 
 const user = () => {
   return (
@@ -25,7 +20,7 @@ const user = () => {
           <div className="grid grid-cols-4 gap-4 mb-4">
             <div className="bg-white p-4 rounded shadow">
               <div className="flex items-center">
-                <Image src={Client} alt="Clients Icon" className="mr-2" width={100} height={10} />
+                <Image src="/Client.png" alt="Clients Icon" className="mr-2" width={100} height={10} />
                 <div>
                   <div className="text-2xl font-bold">0</div>
                   <div>Clients</div>
@@ -45,7 +40,7 @@ const user = () => {
             </div>
             <div className="bg-white p-4 rounded shadow">
               <div className="flex items-center">
-                <Image src={Imp} alt="Important Cases Icon" className="mr-2"  width={100} height={10}/>
+                <Image src="/Importantz.png" alt="Important Cases Icon" className="mr-2"  width={100} height={10}/>
                 <div>
                   <div className="text-2xl font-bold">0</div>
                   <div>Important Cases</div>
@@ -55,7 +50,7 @@ const user = () => {
             </div>
             <div className="bg-white p-4 rounded shadow">
               <div className="flex items-center">
-                <Image src={Aech} alt="Archived Cases Icon" className="mr-2" width={100} height={10} />
+                <Image src="/Archivied.png" alt="Archived Cases Icon" className="mr-2" width={100} height={10} />
                 <div>
                   <div className="text-2xl font-bold">0</div>
                   <div>Archived Cases</div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Annual from "@/public/Annual.png";
-import Budget from "@/public/Budget.png";
+
 
 const Info = () => {
   return (
@@ -9,24 +8,24 @@ const Info = () => {
   <div class="w-full md:w-1/4 p-2">
     <h2 class="text-lg font-semibold mb-4">Reports & Documents</h2>
     <div class="space-y-4">
-      <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <Image src={Annual} alt="Annual Reports" class="mr-4" width={100} height={10}/>
-        <span class="text-card-foreground">Annual Reports</span>
+      <div class="flex items-center bg-gray-400 hover:bg-gray-600 p-4 bg-card rounded-lg shadow-md">
+        <Image src="/Annual.png" alt="Annual Reports" class="mr-4" width={100} height={10}/>
+        <span class="text-white text-xl">Annual Reports</span>
       </div>
-      <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
-        <Image src={Budget} alt="Budget Information" class="mr-4" width={100} height={20} />
-        <span class="text-card-foreground">Budget Information</span>
+      <div class="flex items-center bg-gray-400 hover:bg-gray-600 p-4 bg-card rounded-lg shadow-md">
+        <Image src="/Budget.png" alt="Budget Information" class="mr-4" width={100} height={20} />
+        <span class="text-white text-xl">Budget Information</span>
       </div>
-      <div class="flex items-center p-4 bg-card rounded-lg shadow-md">
+      <div class="flex items-center bg-gray-400 hover:bg-gray-600 p-4 bg-card rounded-lg shadow-md">
         <Image src="" alt="Law Commission Reports Having DOJ Interface" class="mr-4" width={100} height={10}/>
-        <span class="text-card-foreground">Law Commission Reports Having DOJ Interface</span>
+        <span class="text-white text-xl">Law Commission Reports Having DOJ Interface</span>
       </div>
     </div>
   </div>
 
-  <div class="w-full md:w-1/4 p-2">
-    <h2 class="text-lg font-semibold mb-4">Divisions</h2>
-    <ul class="list-disc list-inside text-xl">
+  <div class="w-full border-2 md:w-1/4 p-4">
+    <h2 class="text-2xl font-semibold mb-4">Divisions</h2>
+    <ul class="list-disc font-serif list-inside text-xl">
       <li>Appointments</li>
       <li>National Mission for Justice Delivery & Legal Reforms</li>
       <li>Access to Justice</li>
@@ -37,9 +36,9 @@ const Info = () => {
     </ul>
   </div>
 
-  <div class="w-full md:w-1/4 p-2">
-    <h2 class="text-lg font-semibold mb-4">Important Links</h2>
-    <ul class="list-disc list-inside text-xl">
+  <div class="w-full border-2 md:w-1/4 p-4">
+    <h2 class="text-2xl font-semibold mb-4">Important Links</h2>
+    <ul class="list-disc font-serif list-inside text-xl">
       <li>Department of Legal Affairs</li>
       <li>Legislative Department</li>
       <li>Supreme Court of India</li>

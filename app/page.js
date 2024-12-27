@@ -8,17 +8,22 @@ import Lawyersays from '@/components/Lawyersays';
 import Mission from '@/components/Mission';
 import ServiceIcon from '@/components/ServiceIcon';
 import Navbar from "@/components/Navbar";
+
+
 const page = () => {
   return (
     <div>
       <Navbar/>
       <Intro/>
-      <Lawyersays/>
+      
+     <Mission/>
+     <Lawyersays/>
+     <ServiceIcon/>
+     <Info/>
      <Gallery/>
      <Form/>
-     <Info/>
-     <Mission/>
-     <ServiceIcon/>
+   
+    
      <Footer/>
    
     </div>
