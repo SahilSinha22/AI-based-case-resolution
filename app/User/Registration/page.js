@@ -1,6 +1,7 @@
 "use client";
-import RegistrationForm from '@/components/Registartion'
 import React from 'react'
+import RegistrationForm from '@/components/Registartion'
+
 
 const page = () => {
   return (
