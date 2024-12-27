@@ -1,5 +1,6 @@
 // pages/new-case.js
-
+"use client";
+import React from "react";
 const NewCase = () => {
   const handleSubmit = (event) => {
     event.preventDefault();

@@ -1,4 +1,4 @@
-
+"use client";
 import Settings from '@/components/Lawyer/Setting'
 import Navbar from '@/components/LawyerNav'
 import React from 'react'

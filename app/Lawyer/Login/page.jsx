@@ -1,3 +1,4 @@
+"use client";
 import LawyerLogin from '@/components/Lawyer/Lawyerlogin'
 import React from 'react'
 

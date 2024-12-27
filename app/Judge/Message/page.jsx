@@ -1,3 +1,4 @@
+"use client";
 import Messages from '@/components/Judge/Message'
 import NavBar from '@/components/Judge/Navbar'
 import React from 'react'

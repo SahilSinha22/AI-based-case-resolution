@@ -1,3 +1,4 @@
+"use client";
 import CaseHistory from '@/components/User/CaseHistory'
 import Dashboard from '@/components/User/Dashboard'
 import UserNavBar from '@/components/User/Navbar'

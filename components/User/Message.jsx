@@ -1,5 +1,6 @@
 // pages/messages.js
-
+"use client";
+import React from "react";
 
 const Messages = () => {
   const messages = [
@@ -19,7 +20,7 @@ const Messages = () => {
               <h2 className="text-2xl font-semibold mb-2">{message.from}</h2>
               <p>{message.message}</p>
               <button
-               /// onClick={() => router.push(`/messages/${message.id}`)}
+              
                 className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
               >
                 View Details

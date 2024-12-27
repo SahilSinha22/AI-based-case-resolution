@@ -1,6 +1,7 @@
 // pages/history.js
 
-
+"use client";
+import React from "react";
 const CaseHistory = () => {
   const historyCases = [
     { id: 3, title: "Case 3", description: "Description of Case 3" },
@@ -19,7 +20,7 @@ const CaseHistory = () => {
               <h2 className="text-2xl font-semibold mb-2">{caseItem.title}</h2>
               <p>{caseItem.description}</p>
               <button
-               // onClick={() => router.push(`/cases/${caseItem.id}`)}
+              
                 className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
               >
                 View Details

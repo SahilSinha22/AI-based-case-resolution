@@ -1,3 +1,4 @@
+"use client";
 import Profile from '@/components/Lawyer/Profile'
 import Navbar from '@/components/LawyerNav'
 import React from 'react'

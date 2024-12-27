@@ -1,5 +1,6 @@
 // pages/cases.js
-
+"use client";
+import React from "react";
 
 const MyCases = () => {
   const cases = [
@@ -19,7 +20,7 @@ const MyCases = () => {
               <h2 className="text-2xl font-semibold mb-2">{caseItem.title}</h2>
               <p>{caseItem.description}</p>
               <button
-               //onClick={() => router.push(`/cases/${caseItem.id}`)}
+      
                 className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
               >
                 View Details

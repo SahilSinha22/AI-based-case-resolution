@@ -1,3 +1,4 @@
+"use client";
 import JudgeLogin from '@/components/Judgelogin'
 import React from 'react'
 

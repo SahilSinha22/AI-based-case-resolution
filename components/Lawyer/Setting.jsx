@@ -1,5 +1,6 @@
 // pages/lawyer/settings.js
-
+"use client";
+import React from "react";
 const Settings = () => {
   return (
     <div>

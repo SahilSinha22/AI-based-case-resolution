@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Navbar from '@/components/LawyerNav'
 import Addmore from '@/components/Addmore'

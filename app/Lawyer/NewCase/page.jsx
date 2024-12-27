@@ -1,3 +1,4 @@
+"use client";
 import Client from '@/components/Lawyer/Client'
 import NewCase from '@/components/Lawyer/NewCase'
 import Navbar from '@/components/LawyerNav'

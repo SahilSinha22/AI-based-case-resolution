@@ -1,3 +1,4 @@
+"use client";
 import Client from '@/components/Lawyer/Client'
 import Resources from '@/components/Lawyer/Resources'
 import Navbar from '@/components/LawyerNav'

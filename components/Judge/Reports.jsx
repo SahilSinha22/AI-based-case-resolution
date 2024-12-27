@@ -1,5 +1,6 @@
 // pages/reports.js
-
+"use client";
+import React from "react";
 
 const Reports = () => {
   return (

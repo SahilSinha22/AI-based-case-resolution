@@ -1,4 +1,5 @@
-
+"use client";
+import React from "react";
 
 // pages/lawyer-dashboard.js
 

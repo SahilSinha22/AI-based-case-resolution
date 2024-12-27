@@ -1,3 +1,4 @@
+"use client";
 import Dashboard from '@/components/Judge/Dashboard'
 import NavBar from '@/components/Judge/Navbar'
 import React from 'react'

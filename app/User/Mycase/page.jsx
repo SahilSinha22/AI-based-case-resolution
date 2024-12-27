@@ -1,3 +1,4 @@
+"use client";
 import MyCases from '@/components/User/Mycase'
 import UserNavBar from '@/components/User/Navbar'
 import React from 'react'

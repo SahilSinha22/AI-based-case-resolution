@@ -1,3 +1,4 @@
+"use client";
 import ActiveCases from '@/components/Judge/Activated'
 import NavBar from '@/components/Judge/Navbar'
 import React from 'react'

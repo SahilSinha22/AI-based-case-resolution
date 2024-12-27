@@ -1,16 +1,9 @@
 // components/UserNavBar.js
-import React from 'react'
+"use client";
+import React from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-import Testinomial from "@/public/Testinomial2.png";
-import Setting from "@/public/settings.png";
-import Homes from "@/public/Home.png";
-import Navbar1 from "@/public/Navbar1.png";
-import Navbar2 from "@/public/Navbar2.png"
-import Navbar3 from "@/public/Navbar3.png"
-import Navbar4 from "@/public/Navbar4.png"
-import Navbar5 from "@/public/Navbar5.png"
-import Navbar6 from "@/public/Navbar6.png"
+
 
 
 const UserNavBar = () => {

@@ -1,3 +1,4 @@
+"use client";
 import NavBar from '@/components/Judge/Navbar'
 import Settings from '@/components/Judge/Setting'
 import React from 'react'

@@ -1,4 +1,5 @@
 
+"use client";
 import Dashboard from '@/components/User/Dashboard'
 import UserNavBar from '@/components/User/Navbar'
 import React from 'react'

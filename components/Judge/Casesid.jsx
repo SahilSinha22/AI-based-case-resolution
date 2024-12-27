@@ -1,10 +1,11 @@
 // pages/cases/[id].js
 "use client";
-import { useRouter } from 'next/navigation';
+import React from "react";
+
 
 const CaseDetails = () => {
-  const router = useRouter();
- // const { id } = router.query;
+
+
 
   return (
     <div>

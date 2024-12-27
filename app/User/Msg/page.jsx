@@ -1,4 +1,5 @@
 
+"use client";
 import Messages from '@/components/User/Message'
 import UserNavBar from '@/components/User/Navbar'
 import React from 'react'
