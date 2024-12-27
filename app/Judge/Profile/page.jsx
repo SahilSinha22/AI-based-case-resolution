@@ -6,7 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className='flex'>
-    <div className=''>
+    <div >
       <NavBar/>
     </div>
         <div class="w-screen h-screen">
